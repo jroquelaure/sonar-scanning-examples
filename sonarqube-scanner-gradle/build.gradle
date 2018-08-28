@@ -1,12 +1,12 @@
 buildscript {
 	repositories {
-		maven {
-            url 'http://localhost:8081/artifactory/gradle-dev'
-            credentials {
-                username = "${artifactory_user}"
-                password = "${artifactory_password}"
-            }
-        }
+		// maven {
+        //     url 'http://localhost:8081/artifactory/gradle-dev'
+        //     credentials {
+        //         username = "${artifactory_user}"
+        //         password = "${artifactory_password}"
+        //     }
+        // }
 		jcenter()
 	}
 	
