@@ -5,8 +5,7 @@ public class App {
     
     public String getGreeting() {
         
-        System.out.println("test");
-        return "Hello world.";
+       return "Hello world.";
     }
 
     public static void main(String[] args) {
