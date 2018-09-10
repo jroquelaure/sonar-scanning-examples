@@ -5,9 +5,7 @@ public class App {
     
     public String getGreeting() {
         
-        while(true){
-          int i =1;
-        }
+        System.out.println("test");
         return "Hello world.";
     }
 
