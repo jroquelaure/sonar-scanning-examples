@@ -4,8 +4,11 @@
 public class App {
     
     public String getGreeting() {
+        
+        while(true){
+            System.out.println(new App().getGreeting());
+        }
         return "Hello world.";
-        while(true);
     }
 
     public static void main(String[] args) {
