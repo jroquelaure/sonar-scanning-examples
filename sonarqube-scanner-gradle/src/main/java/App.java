@@ -15,6 +15,7 @@ public class App {
     }
 
     public static void main(String[] args) {
+        getGreeting("Jon", "Roquelaure");
         int i =0;
     }
 
