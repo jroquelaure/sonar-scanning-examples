@@ -3,7 +3,7 @@
  */
 public class App {
     
-    public String getGreeting() {
+    public String getGreeting(String firstName, String lastName) {
         
          StringBuilder message = new StringBuilder("Hello");
         message.append(" ");
