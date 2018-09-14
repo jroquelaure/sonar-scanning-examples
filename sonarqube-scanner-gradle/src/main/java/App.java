@@ -15,8 +15,7 @@ public class App {
     }
 
     public static void main(String[] args) {
-        getGreeting("Jon", "Roquelaure");
-        int i =0;
+       System.out.println(new App().getGreeting("Jon", "Roquelaure"));
     }
 
 }
