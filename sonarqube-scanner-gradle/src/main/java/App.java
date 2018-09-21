@@ -6,18 +6,7 @@ public class App {
         
          StringBuilder message = new StringBuilder("Hello");
 
-        // Initializing names in case they're missing
-        if (firstName == null || lastName == null) {
-            try {
-            BufferedReader reader = new BufferedReader(new FileReader("default-values.txt"));
-            firstName = reader.readLine();
-            lastName = reader.readLine();
-            }
-            catch(IOException e){
-                //nothing
-            }
-        } 
-
+        
 
         message.append(" ");
         message.append(firstName);
